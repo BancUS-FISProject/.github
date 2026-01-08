@@ -1,6 +1,6 @@
-# 🏦 BancUS - FIS Project
+# BancUS
 
-## 🚀 Acceso al Servicio Web
+## Acceso al Servicio Web
 
 Mediante este enlace se accede al servicio web desplegado en azure.
 
@@ -13,7 +13,7 @@ Para ello hay que acceder a un enlace que no requiere autorizacion como el healt
 
 [**Enlace a health de autorizacion**](https://68.221.252.242:10000/v1/user-auth/health)
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 ### Infraestructura, Despliegue & Cloud
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -39,5 +39,5 @@ Para ello hay que acceder a un enlace que no requiere autorizacion como el healt
 
 ---
 <div align="center">
-  <sub>Desarrollado con ❤️ por el equipo de BancUS-FISProject | 2025/2026</sub>
+  <sub>Desarrollado por el equipo de BancUS-FISProject | 2025/2026</sub>
 </div>
