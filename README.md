@@ -1,17 +1,23 @@
-# 🏦 BancUS - FIS Project
+# BancUS - FIS Project
 
-## 🚀 Acceso al Servicio Web
+## Acceso al Servicio Web
 
-Mediante este enlace se accede al servicio web desplegado en azure.
+El servicio se encuentra desplegado en Azure y expuesto mediante un túnel **Ngrok** (para optimización de costes).
 
-Este enlace es un forward de la web con **NGROK** usado para reducir costes en azure.
+### Requisito Previo: Certificados SSL
+Nuestra API Gateway utiliza **HTTPS con certificados autofirmados**. Para que el navegador permita la conexión, debes realizar este paso **una única vez** antes de acceder a la web:
 
-[**Pagina Web**](https://nonlitigious-trudi-isochronally.ngrok-free.dev/)
+1. Accede al **Health Check de Autorización**: [🔗 Enlace a Health Auth](https://68.221.252.242:10000/v1/user-auth/health)
+2. El navegador mostrará una advertencia de seguridad ("La conexión no es privada").
+3. Haz clic en **Configuración avanzada** y selecciona **Continuar a... (inseguro)** para confiar en el certificado.
 
-**Antes de acceder a la web** es necesario que el navegador confie en los certificados autofirmados de la API GATEWAY.
-Para ello hay que acceder a un enlace que no requiere autorizacion como el health del servicio autenticacion
+> **ℹNota sobre seguridad:**
+> Usamos certificados autofirmados para cifrar la conexión (HTTPS). Esto significa que la transmisión de datos es segura, pero al no usar una entidad certificadora de pago, el navegador no reconocerá nuestra "firma" automáticamente. Por eso es necesario aceptar la excepción de seguridad manualmente accediendo a una ruta a través de la API Gateway
 
-[**Enlace a health de autorizacion**](https://68.221.252.242:10000/v1/user-auth/health)
+### Acceso a la Aplicación
+Una vez aceptado el certificado en el paso anterior, puedes acceder a la plataforma:
+
+[**Ir a la Página Web**](https://uncloseted-florine-brokenhearted.ngrok-free.dev/)
 
 ## 🛠️ Stack Tecnológico
 
