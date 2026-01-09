@@ -6,7 +6,7 @@ Mediante este enlace se accede al servicio web desplegado en azure.
 
 Este enlace es un forward de la web con **NGROK** usado para reducir costes en azure.
 
-[**Pagina Web**](https://nonlitigious-trudi-isochronally.ngrok-free.dev/)
+[**Pagina Web**](https://uncloseted-florine-brokenhearted.ngrok-free.dev/)
 
 **Antes de acceder a la web** es necesario que el navegador confie en los certificados autofirmados de la API GATEWAY.
 Para ello hay que acceder a un enlace que no requiere autorizacion como el health del servicio autenticacion
